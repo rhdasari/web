@@ -1,0 +1,94 @@
+/* Comments like this*/
+/* body */
+body {
+	padding-top: 5px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 5px;
+    background-color: #e5e5e5;
+}
+/* trying gradient here */
+#grad1 {
+    height: 200px;
+	/* compatibility across different browsers */
+    background: -webkit-linear-gradient(#e5e5e5, #555555); 	/* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#e5e5e5, #555555); 		/* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#e5e5e5, #555555); 	/* For Firefox 3.6 to 15 */
+    background: linear-gradient(#e5e5e5, #555555); 			/* Standard syntax (must be last) */
+}
+
+/* h1 */
+h1 {
+	background-color: #555555;
+    color: #eff0f1;
+    margin-top: 5px;
+	text-align: center;
+}
+
+/* h3 */
+h3 {
+    color: #555555;
+    margin-right: 5px;
+	text-align: right;
+}
+
+/* p */
+p.css {
+	padding: 5px;
+    color: #655a52 ;
+    margin-left: 20px;
+	text-align: justify;
+}
+p.js {
+	padding: 5px;
+    color: #7a121c;
+    margin-left: 20px;
+	text-align: justify;
+}
+
+p.jsdemo {
+	font-weight: bold;
+	padding: 5px;
+    color: #7a121c;
+    margin-left: 20px;
+	text-align: justify;
+}
+/* lists */
+ul.a {
+    list-style-type: circle;
+	text-align: left;
+	color: #655a52;
+    margin-left: 20px;
+}
+.jumbotron{
+height: 125px;
+background-color: #EBF4FA;
+padding: 38px;
+padding-left: 7px;
+}
+.jumbotron>:first-child {
+	padding-bottom: 10p
+	text-transform: uppercase;
+	font-size: 2em;
+
+}
+.jumbotron>:nth-child(2){
+	font-size: 1em;
+	padding-top: 10px;
+	
+}
+.jumbotron>button{
+	text-decoration: none;
+	border-radius: 10px;
+	padding:10px;
+	margin-top: 10px;
+	color: white;
+	text-align: center;
+	background-color: maroon;
+	width:150px;
+}
+.jumbotron>button:hover{
+	border: solid 2px maroon;
+	background-color: white;
+	color: maroon;
+}

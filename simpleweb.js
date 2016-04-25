@@ -1,3 +1,5 @@
 function submitAssignment() {
-    document.getElementById("click").innerHTML = "Thank you for your Submission";
+	alert("Thank you for your Submission");
+    document.getElementById("click").innerHTML = "Check back later for Grades";
 }
+
